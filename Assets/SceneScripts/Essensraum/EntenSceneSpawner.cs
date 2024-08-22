@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class EntenSceneSpawner : SceneSpawner
 {
-    public GameObject targetObject_prototyp;
     private GameObject targetObject;
     public EntenLaufScript entenScript;
     public GameObject ente;
@@ -48,8 +47,13 @@ public class EntenSceneSpawner : SceneSpawner
 
 
     public void spawnGerichtTarget() {
-        targetObject = Instantiate(targetObject_prototyp, new Vector3(Random.Range(-7f, 7f), Random.Range(-3.5f, 3.5f), transform.position.z), transform.rotation);
-        targetObject.GetComponent<TargetScript>().setGericht(allGerichte[Random.Range(0, allGerichte.Length)]);
+        var gericht = allGerichte[Random.Range(0, allGerichte.Length)];
+        targetObject = Instantiate(gericht.food.gameObject, new Vector3(Random.Range(-7f, 7f), Random.Range(-3.5f, 3.5f), transform.position.z), transform.rotation);
+        var target = targetObject.AddComponent<TargetScript>();
+        target.setGericht(gericht);
+        target.SetAnimator(targetObject.GetComponent<Animator>());
+        targetObject.AddComponent<BoxCollider2D>();
+        //targetObject.GetComponent<SpriteRenderer>().sprite = targetObject_prototyp.
     }
 
 

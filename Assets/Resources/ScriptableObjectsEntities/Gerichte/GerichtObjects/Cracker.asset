@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cracker
   m_EditorClassIdentifier: 
   name: Cracker
-  artwork: {fileID: 21300000, guid: 3ea9ec62145197242b7d04cd34c85654, type: 3}
+  food: {fileID: 8487584910390700892, guid: 907587b611c3d4744b7e1e693b5e5173, type: 3}
   idleAnimationClip: {fileID: 7400000, guid: ed726705b1986be46abfb84daa38ee85, type: 2}
   onDestroyAnimationClip: {fileID: 7400000, guid: ed726705b1986be46abfb84daa38ee85, type: 2}
   destroeyedAnimationClip: {fileID: 7400000, guid: ed726705b1986be46abfb84daa38ee85, type: 2}

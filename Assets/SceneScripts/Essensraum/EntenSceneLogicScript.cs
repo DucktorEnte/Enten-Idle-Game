@@ -32,8 +32,6 @@ public class EntenSceneLogicScript : SceneLogicScriptWithClickableObjects
         gameManager.berechneAlleaktuellenKosten();
     }
 
-
-
     public void addScore(int scoreMulti)
     {
         gameManager.addScore(scoreMulti);
@@ -44,11 +42,6 @@ public class EntenSceneLogicScript : SceneLogicScriptWithClickableObjects
             hasTigerente = true;
         }
     }
-
-
-
-
-
 
     // Alle Texte Refreshen:
 
@@ -75,12 +68,8 @@ public class EntenSceneLogicScript : SceneLogicScriptWithClickableObjects
         for (int i= clickableObjects.OfType<TargetScript>().Count(); i < gameManager.maxTarget; i++) 
         {
             spawnscript.spawnGerichtTarget();
-        }
-        
+        }        
     }
-
-
-
 
     override protected void leftMousButtonClick()
     {

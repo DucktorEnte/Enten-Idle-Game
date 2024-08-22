@@ -1,15 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Drawing;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class TargetScript : ClickableObject
 {
     public EntenSceneLogicScript sceneLogicScript;
-    public Animator animator;
     public Gericht gericht;
-    public AnimatorOverrideController animatorOverrideController;
+    public Animator targetAnimator;
     // Start is called before the first frame update
     new void Start()
     {
@@ -23,21 +19,29 @@ public class TargetScript : ClickableObject
 
         sceneLogicScript.addScore(gericht.lernenergie_basis_punkte);
         sceneLogicScript.removeClickableObject(this);
-        isDestroyed = true;
-        animator.Play("CustomOnDestroyAnimation");
-        Destroy(gameObject,0.5f);
+        isDestroyed = true; 
+        //animator.Play(gericht.onDestroyAnimationClip.name);
+        //var foodAnimator = gericht.food.GetComponent<Animator>();
+        targetAnimator.Play(gericht.onDestroyAnimationClip.name);
+        Destroy(gameObject,0.4f);
     }
 
 
     public void setGericht(Gericht newGericht)
     {
         gericht = newGericht;
-        animatorOverrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
+        gericht.food.sprite = newGericht.food.sprite;
+        //animatorOverrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
 
-        animatorOverrideController["CustomIdleAnimation"] = gericht.idleAnimationClip;
-        animatorOverrideController["CustomOnDestroyAnimation"] = gericht.onDestroyAnimationClip;
-        animatorOverrideController["CustomDestroyedAnimation"] = gericht.destroeyedAnimationClip;
-        animator.runtimeAnimatorController = animatorOverrideController;
+        //animatorOverrideController["CustomIdleAnimation"] = gericht.idleAnimationClip;
+        //animatorOverrideController["CustomOnDestroyAnimation"] = gericht.onDestroyAnimationClip;
+        //animatorOverrideController["CustomDestroyedAnimation"] = gericht.destroeyedAnimationClip;
+        //animator.runtimeAnimatorController = animatorOverrideController;
+    }
+
+    public void SetAnimator(Animator animator)
+    {
+        targetAnimator = animator;
     }
 
     public override bool checkIfPointInCollider(Vector3 vector)

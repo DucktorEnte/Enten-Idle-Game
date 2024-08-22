@@ -12,7 +12,7 @@ public class KuechObjektScript : MonoBehaviour
 
     private void Start()
     {
-        spriteRenderer.sprite = gericht.artwork;
+        spriteRenderer.sprite = gericht.food.sprite;
     }
     public int OnClick() {
         return gericht.nummer;

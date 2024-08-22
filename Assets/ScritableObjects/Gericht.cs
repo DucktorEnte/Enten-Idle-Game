@@ -7,7 +7,7 @@ using UnityEngine;
 public class Gericht : ScriptableObject
 {
     public new string name;
-    public Sprite artwork;
+    public SpriteRenderer food;
 
     public AnimationClip idleAnimationClip;
     public AnimationClip onDestroyAnimationClip;

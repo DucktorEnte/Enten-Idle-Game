@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "K\xE4se"
   m_EditorClassIdentifier: 
   name: "K\xE4se"
-  artwork: {fileID: 21300000, guid: 38a3a05753f85554a9fc1dc1158fc85a, type: 3}
+  food: {fileID: 4095884888307971916, guid: ceaf62c1374c2814ba9b462bb6b27b03, type: 3}
   idleAnimationClip: {fileID: 7400000, guid: 51a088c0ba534b2418e5c2591338cfaa, type: 2}
   onDestroyAnimationClip: {fileID: 7400000, guid: 51a088c0ba534b2418e5c2591338cfaa, type: 2}
   destroeyedAnimationClip: {fileID: 7400000, guid: 51a088c0ba534b2418e5c2591338cfaa, type: 2}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bonbon
   m_EditorClassIdentifier: 
   name: Bonbon
-  artwork: {fileID: 21300000, guid: 7f439355a6c8d1844a3b73f166a735ae, type: 3}
+  food: {fileID: 4787239726217543639, guid: 56719fb3a27bdad42b974db2ebae5e42, type: 3}
   idleAnimationClip: {fileID: 7400000, guid: d99e255244f7f3d488f28128633d0d0a, type: 2}
   onDestroyAnimationClip: {fileID: 7400000, guid: d99e255244f7f3d488f28128633d0d0a, type: 2}
   destroeyedAnimationClip: {fileID: 7400000, guid: d99e255244f7f3d488f28128633d0d0a, type: 2}

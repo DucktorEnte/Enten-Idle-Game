@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Linseneintopf
   m_EditorClassIdentifier: 
   name: Linseneintopf
-  artwork: {fileID: 21300000, guid: 6bc580b40427a904d99ab799ba14166b, type: 3}
+  food: {fileID: 2232232160305534054, guid: 869f334aabcc4914da885e834bea0f3d, type: 3}
   idleAnimationClip: {fileID: 7400000, guid: 029e90eb180689b488987b2256825e43, type: 2}
-  onDestroyAnimationClip: {fileID: 7400000, guid: a4515d24d143d8146b18a62ac577167f, type: 2}
+  onDestroyAnimationClip: {fileID: 7400000, guid: 272b8806021592b4fbfb20e650c723c2, type: 2}
   destroeyedAnimationClip: {fileID: 7400000, guid: f80eaa4e4aa0dc747bee5edf72cb8b3a, type: 2}
   lernenergie_basis_punkte: 1
+  nummer: 0
