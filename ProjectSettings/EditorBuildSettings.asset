@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: f90bf69885b4f2942a85e16141e14339
+  - enabled: 1
+    path: Assets/Scenes/Essensraum.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/Tigerentenschule.unity
+    guid: a8c94e2af3488f44aac504a6b01feb61
+  - enabled: 1
+    path: Assets/Scenes/Wettbewerbsscene.unity
+    guid: 85911437a9bc7704d8c2f0d601c59fea
+  - enabled: 1
+    path: Assets/Scenes/WettbewerbFrageAntwortScene.unity
+    guid: f759b8f0bd3281745b00ae835c43e302
+  - enabled: 1
+    path: Assets/Scenes/Kueche.unity
+    guid: bb2aa57d93126cd488381ad18031d417
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ede0e465c80e21345a777baae758f159, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 09ab930299452e04abb67cf831535247, type: 2}

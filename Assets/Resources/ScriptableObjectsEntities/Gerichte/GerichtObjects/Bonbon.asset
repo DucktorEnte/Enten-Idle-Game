@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e3717156f8d12e46817b6a02bc7d8fb, type: 3}
+  m_Name: Bonbon
+  m_EditorClassIdentifier: 
+  name: Bonbon
+  artwork: {fileID: 21300000, guid: 7f439355a6c8d1844a3b73f166a735ae, type: 3}
+  idleAnimationClip: {fileID: 7400000, guid: d99e255244f7f3d488f28128633d0d0a, type: 2}
+  onDestroyAnimationClip: {fileID: 7400000, guid: d99e255244f7f3d488f28128633d0d0a, type: 2}
+  destroeyedAnimationClip: {fileID: 7400000, guid: d99e255244f7f3d488f28128633d0d0a, type: 2}
+  lernenergie_basis_punkte: 5
+  nummer: 0
