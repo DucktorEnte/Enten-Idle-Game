@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0620d7dbda733e41a063309967e31e7, type: 3}
   m_Name: Spielstand 1
   m_EditorClassIdentifier: 
-  score: 2383300
-  gold: 3520
+  score: 3135976
+  gold: 3970000
   punkteJeTarget: 12
   entengeschwindigkeit: 7
-  lastSceneName: Tigerentenschule
+  lastSceneName: Essensraum
   maxTarget: 1
-  freigeschalteteGerichte: 3
-  punkteVerbessernKosten: 1760
+  freigeschalteteGerichte: 6
+  punkteVerbessernKosten: 29
   punkteVerbessernKostenBase: 10
-  geschwindigkeitVerbessernKosten: 63
+  geschwindigkeitVerbessernKosten: 33
   geschwindigkeitVerbessernKostenBase: 10
   portionanzahlerhoehenKosten: 10
   portionanzahlerhoehenKostenBase: 10
@@ -39,4 +39,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c67cbe35f5471a543b0e5e489af733e3, type: 2}
   - {fileID: 11400000, guid: afde1c5fe1356244d8ef9b8d23b30247, type: 2}
   - {fileID: 11400000, guid: 94909580628bd9e4fa2b5b08934dc07a, type: 2}
-  neueGerichtKosten: 1200
+  - {fileID: 11400000, guid: e31d8d2353eef8943ae8f16bb68138bb, type: 2}
+  - {fileID: 11400000, guid: e77cae230e71f9c498b8192b27bd5d6f, type: 2}
+  - {fileID: 11400000, guid: 69954bb932fc216479586061585b9ecb, type: 2}
+  neueGerichtKosten: 999999999999

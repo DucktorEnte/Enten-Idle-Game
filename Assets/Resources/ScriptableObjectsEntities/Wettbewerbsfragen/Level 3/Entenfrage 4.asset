@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ce134a97ba1b614dad852c3dc34e3c0, type: 3}
-  m_Name: schwierigste Mathefrage ever 15
+  m_Name: Entenfrage 4
   m_EditorClassIdentifier: 
-  frage: 
-  antwort_1: 
-  antwort_2: 
-  antwort_3: 
-  antwort_4: 
-  richtigeAntowrt: 1
+  frage: Was essen Enten gerne?
+  antwort_1: Schnitzel und Steaks
+  antwort_2: "K\xE4se und Ruhrei"
+  antwort_3: Beeren und Samen
+  antwort_4: Bonbons und Lutscher
+  richtigeAntowrt: 3

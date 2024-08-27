@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ce134a97ba1b614dad852c3dc34e3c0, type: 3}
-  m_Name: schwierigste Mathefrage ever 19
+  m_Name: schwierigste Mathefrage ever 15
   m_EditorClassIdentifier: 
-  frage: 
-  antwort_1: 
-  antwort_2: 
-  antwort_3: 
-  antwort_4: 
+  frage: Wo wohnen Enten?
+  antwort_1: Am Wasser
+  antwort_2: Auf dem Baum
+  antwort_3: Im Keller
+  antwort_4: "Auf der Stra\xDFe"
   richtigeAntowrt: 1

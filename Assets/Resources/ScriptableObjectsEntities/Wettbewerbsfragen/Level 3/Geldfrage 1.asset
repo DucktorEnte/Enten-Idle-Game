@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ce134a97ba1b614dad852c3dc34e3c0, type: 3}
-  m_Name: schwierigste Mathefrage ever 20
+  m_Name: Geldfrage 1
   m_EditorClassIdentifier: 
-  frage: 
-  antwort_1: 
-  antwort_2: 
-  antwort_3: 
-  antwort_4: 
-  richtigeAntowrt: 1
+  frage: Wohin sollte man Geld nicht legen?
+  antwort_1: Tresor
+  antwort_2: Sparschwein
+  antwort_3: Portemonnaie
+  antwort_4: Waschmaschine
+  richtigeAntowrt: 4

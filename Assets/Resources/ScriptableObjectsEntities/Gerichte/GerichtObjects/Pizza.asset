@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pizza
   m_EditorClassIdentifier: 
   name: Pizza
-  food: {fileID: 2241471608815911162, guid: 8f9380306e3be63459365b668779a2d5, type: 3}
+  food: {fileID: 1511890422656075141, guid: 4ad20a600ecd6f746bb912acbe637e75, type: 3}
   idleAnimationClip: {fileID: 7400000, guid: 5d016870f04a48646bdda115c321d8f1, type: 2}
   onDestroyAnimationClip: {fileID: 7400000, guid: 5d016870f04a48646bdda115c321d8f1, type: 2}
   destroeyedAnimationClip: {fileID: 7400000, guid: 5d016870f04a48646bdda115c321d8f1, type: 2}

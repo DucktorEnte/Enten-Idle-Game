@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ce134a97ba1b614dad852c3dc34e3c0, type: 3}
-  m_Name: schwierigste Mathefrage ever 17
+  m_Name: Entenfrage 5
   m_EditorClassIdentifier: 
-  frage: 
-  antwort_1: 
-  antwort_2: 
-  antwort_3: 
-  antwort_4: 
-  richtigeAntowrt: 1
+  frage: Was haben Enten?
+  antwort_1: "R\xFCssel"
+  antwort_2: Schnauze
+  antwort_3: Mund
+  antwort_4: Schnabel
+  richtigeAntowrt: 4
