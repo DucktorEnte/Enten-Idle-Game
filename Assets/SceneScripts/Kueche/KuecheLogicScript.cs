@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -38,14 +36,9 @@ public class KuecheLogicScript : SceneLogicScriptWithClickableObjects
         gerichtHinzufugenButton.onClick.AddListener(gerichtHinzufugen);
         portionButton.onClick.AddListener(portionAnzahlErhoehen);
 
-
         refreshAllText();
         showFreigeschalteteGerichte();
-
     }
-
-
-
 
     override protected void leftMousButtonClick()
     {
@@ -72,7 +65,6 @@ public class KuecheLogicScript : SceneLogicScriptWithClickableObjects
         }
     }
 
-
     private void scoreTextRefresh()
     {
         scoreText.text = "Lernenergie: " + gameManager.score.ToString();
@@ -85,15 +77,13 @@ public class KuecheLogicScript : SceneLogicScriptWithClickableObjects
 
     private void gerichtHinzufugenButtonTextRefresh()
     {
-        neuesGerichtButtonText.text = "Neues Gericht Kochen \n Gold Kosten: " + gameManager.neueGerichtKosten.ToString();
+        neuesGerichtButtonText.text = "Gold " + gameManager.neueGerichtKosten.ToString();
     }
 
     private void portionButtonTextRefresh()
     {
-        portionButtonText.text = "Portionsanzahl steigern \n Gold Kosten: " + gameManager.portionanzahlerhoehenKosten.ToString();
+        portionButtonText.text = "Gold " + gameManager.portionanzahlerhoehenKosten.ToString();
     }
-
-    
 
     private void refreshAllText()
     {
